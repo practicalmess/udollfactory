@@ -1,0 +1,63 @@
+body {
+	background: #f2eceb;
+	padding: 0;
+	margin: 0;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.body {
+	margin: 8px;
+}
+
+.history p {
+	margin: 0;
+	padding: 1.5%;
+	width: 55%;
+	font-family: 'Alegreya Sans', san-serif;
+}
+
+.slogan {
+	float: right;
+	color: #d97c2b;
+	h1 {
+		margin: 0;
+		font-size: 3em;
+		&:first-child {
+			margin-right: 2em;
+		}
+		&:last-child {
+			margin-left: 1em;
+		}
+	}
+}
+
+.circle-button {
+  cursor: pointer;
+  img {
+    width: 30%;
+    padding: 1.5%;
+    position: absolute;
+    z-index: 1;
+  }
+	&--background {
+		position: absolute;
+		border-radius: 50%;
+		width: 33%;
+		height: auto;
+		padding-top: 33%;
+		background: #d97c2b;
+    &:hover {
+      
+    }
+	}
+}
+
+
+
+h1 {
+	font-family: 'DJBThisIsMe', cursive;
+	/*color: orange;*/
+}
